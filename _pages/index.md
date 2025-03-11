@@ -1,9 +1,10 @@
 ---
 layout: single
 title: "About Me"
-permalink: /about/
+permalink: /
 author_profile: true
 ---
+
 
 ## About Me  
 I am Shihao Li, a Ph.D. student at **The University of Texas at Austin**, researching **Proton Exchange Membrane Fuel Cells (PEMFCs)** for heavy-duty applications. As a graduate research assistant in the **Advanced Power Systems and Control Lab**, I develop **anisotropic Membrane Electrode Assemblies (MEAs)** to enhance fuel cell **durability, efficiency, and scalability**. My work integrates **advanced modeling, robust control strategies, and data-driven diagnostics** to improve long-term fuel cell performance under real-world conditions.  
