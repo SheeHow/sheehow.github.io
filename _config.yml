@@ -27,8 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. student at UT Austin focusing on control, modeling, estimation, and optimization for advanced energy systems."
   location         : "Austin, Texas"
-  employer         : "University of Texas at Austin"
-  uri              : https://www.utexas.edu/
+  employer         : "[University of Texas at Austin](https://www.utexas.edu/)"
   email            : "shihaoli01301@utexas.edu" 
 
   # Academic websites
