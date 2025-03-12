@@ -4,5 +4,5 @@ year: 2023
 authors: "Shihao Li, Chengshuo Hao, Peiyu Wu, Jinghang Ji, Yijin Yang, Jiatong Yao"
 journal: "*Energy Sources, Part A: Recovery, Utilization, and Environmental Effects*"
 category: "manuscripts"
-pdf: "https://tandfonline.com/your-pdf-link"  # Replace with actual PDF link
+pdf: "https://www.tandfonline.com/doi/abs/10.1080/15567036.2023.2275706"  
 ---
