@@ -7,7 +7,7 @@ header:
   teaser: images/s2c-teaser.png
 ---
 
-**Links:** [arXiv]([https://arxiv.org/abs/2511.07894)]) 
+**Links:** [arXiv](https://arxiv.org/abs/2511.07894))
 
 ## Overview
 
