@@ -48,8 +48,11 @@ Prior to UT Austin, I received my B.S. in Mechanical Engineering from [Pennsylva
   <p>A control framework that gives machines "muscle memory." By updating internal linear models with data from previous cycles, RLMPC reduced tracking error by <strong>64%</strong> in roll-to-roll manufacturing while maintaining real-time <strong>3ms</strong> computation.</p>
 </div>
 
-**[Physics-Based Modeling of Adhesion Dynamics](/portfolio/adhesion-dynamics/)**
-Developed physics-based models using contact mechanics for roll-to-roll lamination, validated through real-world experiments achieving **62.6% process time reduction**. *Published in Manufacturing Letters.*
+<div style="margin-bottom: 30px;">
+  <strong><a href="/portfolio/adhesion-dynamics/">Physics-Based Modeling of R2R Adhesion</a></strong><br>
+  <img src="/images/adhesion-teaser.png" alt="Adhesion Model" style="width: 100%; max-width: 500px; margin: 10px 0; border-radius: 4px;">
+  <p>A first-principles process model integrating <strong>Hertzian contact theory</strong> and <strong>transient heat transfer</strong> to predict adhesion quality. Identified a dual-heating strategy that reduces process time by <strong>62.6%</strong>, enabling significant throughput increases for flexible electronics manufacturing.</p>
+</div>
 
 [See all projects →](/portfolio/)
 
