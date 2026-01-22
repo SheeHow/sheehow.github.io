@@ -63,6 +63,9 @@ At each timestep, RLMPC solves a Convex Quadratic Program (QP) where the system 
 
 ## Application: Roll-to-Roll Dry Transfer
 
+![R2R Dry Transfer Schematic](/images/rlmpc-r2r-schematic.png)
+*Schematic of the roll-to-roll mechanical dry transfer process: donor and receiver substrates are laminated, then separated to transfer material/devices.*
+
 The R2R mechanical dry transfer process involves precise tension control during material transfer between rollers. Adhesion forces create complex, periodic disturbances that standard MPC cannot anticipate. RLMPC learns these patterns cycle-by-cycle, effectively building a "muscle memory" of the process dynamics.
 
 ## Tools & Implementation
