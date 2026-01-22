@@ -38,10 +38,15 @@ redirect_from:
 
 ## Teaching
 
-* **Teaching Assistant** - ME 384Q.1: Introduction to Modern Control (Spring 2025)
+* **Teaching Assistant** - ME 384Q.1: Introduction to Modern Control (Spring 2025, Spring 2026)
   * The University of Texas at Austin
   * Conducted office hours and mentored projects on state-space modeling, controllability, observability, stability, and optimal control
   * Supported MATLAB/Simulink implementations for over 80 students
+
+* **Teaching Assistant** - ME 344: Dynamic Systems and Controls (Spring 2026)
+  * The University of Texas at Austin
+  * Course covers lumped physical system models, bond graph modeling, linear system transient and steady-state behavior, Laplace transforms, Bode plots, and introduction to feedback control
+  * Support lectures, homework grading, and office hours for undergraduate students
 
 ## Awards
 
