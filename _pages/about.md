@@ -30,12 +30,10 @@ Prior to UT Austin, I received my B.S. in Mechanical Engineering from [Pennsylva
 
 ## Selected Research Highlights
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <div style="flex: 1;">
-    <strong><a href="/portfolio/llm-control-synthesis/">LLM Multi-Agent Systems for Control Synthesis</a></strong><br>
-    Developed S2C, a multi-agent LLM framework that synthesizes certified H∞ controllers via convex optimization with provable safety guarantees. Achieved <strong>100% synthesis success</strong> on 14 COMPleib benchmarks.
-  </div>
-  <img src="/images/s2c-teaser.png" alt="S2C Framework" style="width: 300px; margin-left: 20px; border-radius: 4px;">
+<div style="margin-bottom: 30px;">
+  <strong><a href="/portfolio/llm-control-synthesis/">LLM Multi-Agent Systems for Control Synthesis</a></strong><br>
+  <img src="/images/s2c-teaser.png" alt="S2C Framework" style="width: 100%; max-width: 500px; margin: 10px 0; border-radius: 4px;">
+  <p>Developed S2C, a multi-agent LLM framework that synthesizes certified H∞ controllers via convex optimization with provable safety guarantees. Achieved <strong>100% synthesis success</strong> on 14 COMPleib benchmarks.</p>
 </div>
 
 **[LLM-Assisted Control for Roll-to-Roll Manufacturing](/portfolio/llm-r2r-control/)**
