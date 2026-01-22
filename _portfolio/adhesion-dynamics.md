@@ -97,6 +97,8 @@ The physics-based model enables:
 
 **Li, S.**, Martin, C., Morquecho, E.V., Chen, Z., Chen, D., & Li, W. (2025). Modeling of Adhesion Dynamics in Roll-to-Roll Lamination Processes. *Manufacturing Letters*, 44, pp.552-558. **[Published]**
 
+<a href="https://www.sciencedirect.com/science/article/pii/S2213846325000975" target="_blank"><img src="https://img.shields.io/badge/Paper-Manufacturing_Letters-blue.svg" alt="Paper"></a>
+
 ```bibtex
 @article{li2025adhesion,
   title={Modeling of Adhesion Dynamics in Roll-to-Roll Lamination Processes},
