@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Mechanical Engineering at [The University of Texas at Austin](https://www.utexas.edu/), advised by [Dr. Dongmei Chen](https://www.me.utexas.edu/people/faculty-directory/chen) in the [Advanced Power Systems and Controls Lab](https://sites.utexas.edu/dongmeichen/). My research focuses on **control theory**, **optimization**, **reinforcement learning**, and **robotics**.
+I am a third-year Ph.D. student in Mechanical Engineering at [The University of Texas at Austin](https://www.utexas.edu/), advised by [Dr. Dongmei Chen](https://www.me.utexas.edu/people/faculty-directory/chen) in the [Advanced Power Systems and Controls Lab](https://sites.utexas.edu/dongmeichen/). My research focuses on **control theory**, **optimization**, **reinforcement learning**, and **robotics**.
 
 I am currently exploring applications in **robot learning** and **embodied AI**, with hands-on experience deploying vision-language-action models. My work spans deep reinforcement learning for sequential decision-making, LLM-based multi-agent frameworks for automated control synthesis, and distributionally robust predictive control.
 
