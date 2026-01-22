@@ -36,8 +36,11 @@ Prior to UT Austin, I received my B.S. in Mechanical Engineering from [Pennsylva
   <p>Developed S2C, a multi-agent LLM framework that synthesizes certified H∞ controllers via convex optimization with provable safety guarantees. Achieved <strong>100% synthesis success</strong> on 14 COMPleib benchmarks.</p>
 </div>
 
-**[LLM-Assisted Control for Roll-to-Roll Manufacturing](/portfolio/llm-r2r-control/)**
-Developed a multi-agent LLM framework for automated controller design in roll-to-roll manufacturing systems, integrating domain knowledge retrieval with automated verification.
+<div style="margin-bottom: 30px;">
+  <strong><a href="/portfolio/llm-r2r-control/">LLM-Assisted Multi-Agent Control for R2R Manufacturing</a></strong><br>
+  <img src="/images/r2r-llm-teaser.png" alt="R2R LLM Framework" style="width: 100%; max-width: 500px; margin: 10px 0; border-radius: 4px;">
+  <p>Developed a lifecycle multi-agent framework automating control engineering for roll-to-roll manufacturing—from system identification to sim-to-real adaptation. Achieved robust tension regulation under <strong>50% model uncertainty</strong> with safety-guaranteed deployment.</p>
+</div>
 
 **[Repetitive Learning MPC for Nonlinear Systems](/portfolio/rl-mpc/)**
 Developed a repetitive learning model predictive control method for nonlinear systems with application to roll-to-roll manufacturing. *Accepted to ACC 2026.*
