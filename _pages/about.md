@@ -11,7 +11,7 @@ I am a Ph.D. student in Mechanical Engineering at [The University of Texas at Au
 
 I am currently exploring applications in **robot learning** and **embodied AI**, with hands-on experience deploying vision-language-action models. My work spans deep reinforcement learning for sequential decision-making, LLM-based multi-agent frameworks for automated control synthesis, and distributionally robust predictive control.
 
-Prior to UT Austin, I received my B.S. in Mechanical Engineering from [Pennsylvania State University](https://www.psu.edu/) in 2023.
+I received my B.S. in Mechanical Engineering from [Pennsylvania State University](https://www.psu.edu/) in 2023, and my M.S. in Mechanical Engineering from UT Austin in 2025.
 
 ## Research Interests
 
