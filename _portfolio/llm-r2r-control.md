@@ -38,6 +38,18 @@ Unlike static code generation, this framework manages the entire lifecycle of th
 | **Monitoring** | Monitoring Agent | Watches for degradation, distinguishes control issues from physical issues |
 | **Model Update** | Update Agent | Refines simulation model based on operational data |
 
+## RAG-Enhanced Domain Knowledge Retrieval
+
+A critical component of the framework is the **Retrieval-Augmented Generation (RAG)** system that grounds LLM reasoning in domain-specific knowledge. Rather than relying solely on the LLM's pretrained knowledge, the agents retrieve relevant information from a curated knowledge base of R2R control principles, material properties, and tuning heuristics.
+
+![RAG Integration](/images/r2r-llm-fig3-rag.png)
+*RAG-enhanced agent architecture: domain knowledge retrieval augments LLM reasoning for control-specific decisions.*
+
+The RAG system enables:
+- **Context-aware tuning:** Agents retrieve relevant tuning strategies based on current system state
+- **Physics-grounded reasoning:** Material properties and dynamics constraints inform parameter suggestions
+- **Historical pattern matching:** Past adaptation successes guide current decisions
+
 ## Key Innovation: Simulation Safety Filter
 
 In manufacturing, you cannot simply let an AI "try" random parameters on hardware. We introduced a rigorous **Simulation Safety Filter** in the Sim-to-Real phase.
