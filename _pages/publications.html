@@ -5,32 +5,104 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?hl=zh-CN&user=b8X8voEAAAAJ">my Google Scholar profile</a>.</div>
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<p><sup>*</sup> denotes equal contribution</p>
 
+<!-- Under Review -->
+<h2>Under Review</h2>
+<hr />
 
+<ol reversed>
+  <li>
+    <strong>S. Li</strong>, J. Li, J. Xu, and D. Chen, "From Natural Language to Certified H∞ Controllers: Integrating LLM Agents with LMI-Based Synthesis," <em>Learning for Dynamics &amp; Control Conference (L4DC)</em>, 2026. [Under Review]
+    <!-- [ADD PDF LINK] | [ADD ARXIV LINK] -->
+  </li>
+  <li>
+    J. Li, <strong>S. Li</strong>, and D. Chen, "AURORA: Autonomous Updating of ROM and Controller via Recursive Adaptation," <em>Learning for Dynamics &amp; Control Conference (L4DC)</em>, 2026. [Under Review]
+    <!-- [ADD PDF LINK] | [ADD ARXIV LINK] -->
+  </li>
+  <li>
+    <strong>S. Li</strong>, J. Li, J. Xu, C. Martin, W. Li, and D. Chen, "Algorithm-Relative Trajectory Valuation in Policy Gradient Control," <em>Learning for Dynamics &amp; Control Conference (L4DC)</em>, 2026. [Under Review]
+    [<a href="https://arxiv.org/abs/2511.07878">arXiv</a>]
+  </li>
+  <li>
+    <strong>S. Li</strong>, J. Li, C. Martin, Z. Chen, D. Chen, and W. Li, "Curriculum-Based Soft Actor-Critic for Multi-Section R2R Tension Control," <em>54th SME North American Manufacturing Research Conference (NAMRC 54)</em>, 2026. [Under Review]
+    <!-- [ADD PDF LINK] | [ADD ARXIV LINK] -->
+  </li>
+  <li>
+    J. Li, <strong>S. Li</strong>, C. Martin, W. Li, and D. Chen, "An LLM-Assisted Multi-Agent Control Framework for Roll-to-Roll Manufacturing Systems," <em>54th SME North American Manufacturing Research Conference (NAMRC 54)</em>, 2026. [Under Review]
+    <!-- [ADD PDF LINK] | [ADD ARXIV LINK] -->
+  </li>
+</ol>
 
+<!-- Conference Papers -->
+<h2>Conference Papers</h2>
+<hr />
+
+<ol reversed>
+  <li>
+    C. Martin, <strong>S. Li</strong>, J. Li, Z. Chen, W. Li, and D. Chen, "A Repetitive Learning Model Predictive Control Method for Nonlinear Systems with Application to Roll-to-Roll Manufacturing," <em>2026 American Control Conference (ACC)</em>, New Orleans, LA, May 2026. [Accepted]
+    <!-- [ADD PDF LINK] | [ADD ARXIV LINK] -->
+  </li>
+  <li>
+    <strong>S. Li</strong>, J. Li, C. Martin, S. Bakshi, and D. Chen, "MDR-DeePC: Model-Inspired Distributionally Robust Data-Enabled Predictive Control," <em>Modeling, Estimation and Control Conference (MECC)</em>, October 2025.
+    <!-- [ADD PDF LINK] | [ADD DOI LINK] -->
+  </li>
+  <li>
+    J. Li, C. Jian, F. Zhao, <strong>S. Li</strong>, W. Li, and D. Chen, "Robust Optimal Task Planning to Maximize Battery Life," <em>Modeling, Estimation and Control Conference (MECC)</em>, October 2025.
+    <!-- [ADD PDF LINK] | [ADD DOI LINK] -->
+  </li>
+</ol>
+
+<!-- Peer-Reviewed Journal Articles -->
+<h2>Journal Articles</h2>
+<hr />
+
+<ol reversed>
+  <li>
+    <strong>S. Li</strong>, C. Martin, E.V. Morquecho, Z. Chen, D. Chen, and W. Li, "Modeling of Adhesion Dynamics in Roll-to-Roll Lamination Processes," <em>Manufacturing Letters</em>, vol. 44, pp. 552-558, 2025.
+    <!-- [<a href="[ADD PDF LINK]">PDF</a>] | [<a href="[ADD DOI LINK]">DOI</a>] -->
+  </li>
+  <li>
+    <strong>S. Li</strong>, C. Hao, P. Wu, J. Ji, Y. Yang, and J. Yao, "Review of Multi-junction Solar Cell &amp; Factors Impacting the Efficiency of Multi-junction Solar Cell," <em>Energy Sources, Part A: Recovery, Utilization, and Environmental Effects</em>, vol. 45, no. 4, pp. 12737-12758, 2023.
+    <!-- [<a href="[ADD PDF LINK]">PDF</a>] | [<a href="https://doi.org/10.1080/15567036.2023.2275662">DOI</a>] -->
+  </li>
+</ol>
+
+<!-- Preprints -->
+<h2>Preprints</h2>
+<hr />
+
+<ol reversed>
+  <li>
+    <strong>S. Li</strong>, J. Li, and D. Chen, "Natural Geometry of Robust Data Attribution: From Convex Models to Deep Networks," <em>arXiv preprint arXiv:2512.09103</em>, 2025.
+    [<a href="https://arxiv.org/abs/2512.09103">arXiv</a>]
+  </li>
+  <li>
+    J. Li, <strong>S. Li</strong>, X. Duan, and D. Chen, "DM-MPPI: Datamodel for Efficient and Safe Model Path Integral Control," <em>arXiv preprint arXiv:2512.00759</em>, 2025.
+    [<a href="https://arxiv.org/abs/2512.00759">arXiv</a>]
+  </li>
+  <li>
+    J. Li, <strong>S. Li</strong>, and D. Chen, "Datamodel-Based Data Selection for Nonlinear Data-Enabled Predictive Control," <em>arXiv preprint arXiv:2512.00276</em>, 2025.
+    [<a href="https://arxiv.org/abs/2512.00276">arXiv</a>]
+  </li>
+  <li>
+    J. Li, <strong>S. Li</strong>, C. Martin, W. Li, and D. Chen, "Adaptive Trajectory Bundle Method for Roll-to-Roll Manufacturing Systems," <em>arXiv preprint arXiv:2511.22954</em>, 2025.
+    [<a href="https://arxiv.org/abs/2511.22954">arXiv</a>]
+  </li>
+  <li>
+    J. Li, J. Chu, F. Zhao, <strong>S. Li</strong>, W. Li, and D. Chen, "Constrained Optimal Planning to Minimize Battery Degradation of Autonomous Mobile Robots," <em>arXiv preprint arXiv:2506.13019</em>, 2025.
+    [<a href="https://arxiv.org/abs/2506.13019">arXiv</a>]
+  </li>
+  <li>
+    J. Li, <strong>S. Li</strong>, J. Xu, S. Bakshi, and D. Chen, "Influence Functions for Data Attribution in Linear System Identification and LQR Control," <em>arXiv preprint arXiv:2506.11293</em>, 2025.
+    [<a href="https://arxiv.org/abs/2506.11293">arXiv</a>]
+  </li>
+  <li>
+    J. Li, <strong>S. Li</strong>, and D. Chen, "Smart Predict-Then-Control: Integrating Identification and Control via Decision Regret," <em>arXiv preprint arXiv:2506.11279</em>, 2025.
+    [<a href="https://arxiv.org/abs/2506.11279">arXiv</a>]
+  </li>
+</ol>
