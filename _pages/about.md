@@ -22,8 +22,9 @@ Prior to UT Austin, I received my B.S. in Mechanical Engineering from [Pennsylva
 
 ## News
 - **[Spring 2026]** Serving as Teaching Assistant for ME 384Q.1: Introduction to Modern Control and ME 344: Dynamic Systems and Control.
-- **[Jan 2026]** Paper on repetitive learning MPC for roll-to-roll manufacturing accepted to [ACC 2026](https://acc2026.a2c2.org/).
+- **[Jan 2026]** Paper on repetitive learning MPC for roll-to-roll manufacturing accepted to [ACC 2026](https://acc2026.a2c2.org/). See you in New Orleans this summer!
 - **[2025]** Paper on MDR-DeePC accepted to MECC 2025.
+- **[2025]** Paper on Robust Optimal Task Planning to Maximize Battery Life accepted to MECC 2025.
 - **[2025]** Paper on adhesion dynamics in roll-to-roll lamination published in *Manufacturing Letters*.
 - **[Spring 2025]** Serving as Teaching Assistant for ME 384Q.1: Introduction to Modern Control.
 
