@@ -58,9 +58,7 @@ redirect_from:
 
 ## Publications
 
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+For a complete list of my publications, please visit the [Publications page](/publications/).
   
 ## Service
 
