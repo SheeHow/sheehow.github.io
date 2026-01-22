@@ -9,56 +9,62 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Ph.D. in Mechanical Engineering**, The University of Texas at Austin, 2023 - Present
+  * Focus: Dynamic Systems and Control
+  * GPA: 3.96/4.0
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **M.S. in Mechanical Engineering**, The University of Texas at Austin, 2023 - 2025
+  * Thesis: "Curriculum-Based Soft Actor-Critic for Multi-Section Roll-to-Roll Tension Control"
+  * Advisor: Dr. Dongmei Chen | Committee: Dr. Wei Li
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **B.S. in Mechanical Engineering**, Pennsylvania State University, 2019 - 2023
+  * GPA: 3.67/4.0 | Major GPA: 3.86/4.0
 
-Publications
-======
+## Research Experience
+
+* **Graduate Research Assistant** (Jan 2024 - Present)
+  * University of Texas at Austin - Advanced Power Systems and Controls Lab
+  * Vision-Language-Action Models: Deployed OpenVLA for robot manipulation tasks; exploring fine-tuning strategies for task-specific adaptation
+  * LLM Multi-Agent Systems: Developed S2C framework for certified H∞ controller synthesis with 100% success on COMPleib benchmarks
+  * Deep Reinforcement Learning: Designed curriculum-based SAC achieving 80.2% lower tracking error than LQR baseline
+  * Distributionally Robust Control: Developed MDR-DeePC combining physics-based models with data-driven prediction
+
+* **Undergraduate Research Assistant** (Oct 2021 - Apr 2022)
+  * University of California, Los Angeles - Fluid Mechanics of Renewable Energy
+  * Supervisor: Dr. Nasr Ghoniem
+  * Conducted literature review and analysis of multi-junction solar cell efficiency factors
+
+## Teaching
+
+* **Teaching Assistant** - ME 384Q.1: Introduction to Modern Control (Spring 2025)
+  * The University of Texas at Austin
+  * Conducted office hours and mentored projects on state-space modeling, controllability, observability, stability, and optimal control
+  * Supported MATLAB/Simulink implementations for over 80 students
+
+## Awards
+
+* Warren A. and Alice L. Meyer Endowed Scholarship, UT Austin
+* Dean's List, Pennsylvania State University (7 Semesters)
+
+## Skills
+
+* **Robot Learning:** Vision-Language-Action Models (OpenVLA), Deep RL (SAC, PPO), Curriculum Learning
+* **LLM & Foundation Models:** Multi-Agent Systems, Prompt Engineering, RAG, Function Calling, vLLM Deployment
+* **Control & Optimization:** MPC, Trajectory Optimization, LQR/LQG, H∞ Synthesis, Convex Optimization (LMI/SDP), CVXPY
+* **Programming:** Python (PyTorch, NumPy, Pandas, Transformers), MATLAB/Simulink, Git, Linux, Docker
+* **Infrastructure:** GPU Cluster Management, Training Pipeline Automation, Shell Scripting
+
+## Publications
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Service
+
+* **Peer Reviewer:** Modeling, Estimation and Control Conference (MECC)
+* **Peer Reviewer:** ASME Journal of Dynamic Systems, Measurement and Control
+
+[Download Full CV (PDF)](/files/Shihao_Li_CV.pdf)
