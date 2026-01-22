@@ -42,8 +42,11 @@ Prior to UT Austin, I received my B.S. in Mechanical Engineering from [Pennsylva
   <p>Developed a lifecycle multi-agent framework automating control engineering for roll-to-roll manufacturing—from system identification to sim-to-real adaptation. Achieved robust tension regulation under <strong>50% model uncertainty</strong> with safety-guaranteed deployment.</p>
 </div>
 
-**[Repetitive Learning MPC for Nonlinear Systems](/portfolio/rl-mpc/)**
-Developed a repetitive learning model predictive control method for nonlinear systems with application to roll-to-roll manufacturing. *Accepted to ACC 2026.*
+<div style="margin-bottom: 30px;">
+  <strong><a href="/portfolio/rl-mpc/">RLMPC: Real-Time Repetitive Learning Control</a></strong><br>
+  <img src="/images/rlmpc-teaser.png" alt="RLMPC Framework" style="width: 100%; max-width: 500px; margin: 10px 0; border-radius: 4px;">
+  <p>A control framework that gives machines "muscle memory." By updating internal linear models with data from previous cycles, RLMPC reduced tracking error by <strong>64%</strong> in roll-to-roll manufacturing while maintaining real-time <strong>3ms</strong> computation.</p>
+</div>
 
 **[Physics-Based Modeling of Adhesion Dynamics](/portfolio/adhesion-dynamics/)**
 Developed physics-based models using contact mechanics for roll-to-roll lamination, validated through real-world experiments achieving **62.6% process time reduction**. *Published in Manufacturing Letters.*
