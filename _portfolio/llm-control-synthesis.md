@@ -45,6 +45,9 @@ S2C introduces a **severity-aware Gamma-Floor** that dynamically raises the lowe
 
 Evaluated on 14 COMPleib benchmark problems against classical baselines and single-shot LLM approaches:
 
+![Synthesis Success Comparison](/images/s2c-fig3a-synthesis-success.png)
+*Synthesis success rate comparison: S2C achieves 100% success vs. 57% for standard BRL and 50% for PID.*
+
 | Metric | S2C (Full) | S2C (No Floor) | Baseline (BRL) |
 |--------|:----------:|:--------------:|:--------------:|
 | **Synthesis Success** | **100%** | 86% | 57% |
@@ -64,7 +67,8 @@ The NN1 academic benchmark is notoriously difficult to stabilize. Given the user
 - **Iteration 1:** TesterAgent flags violation; AdaptAgent activates guardrail
 - **Iteration 5:** Converges with 15.9s settling time and 64% overshoot reduction
 
-<!-- Image placeholder: Add s2c-nn1-evolution.png showing performance metrics over iterations -->
+![Design Evolution](/images/s2c-fig5-design-evolution.png)
+*Iterative improvement of NN1 controller: overshoot reduced from 93.9% to 34.2%, settling time error improved from +16% to -0.6%.*
 
 ## Technical Approach
 
