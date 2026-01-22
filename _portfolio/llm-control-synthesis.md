@@ -3,11 +3,10 @@ title: "S2C: LLM Multi-Agent Framework for Certified H∞ Controller Synthesis"
 excerpt: "A multi-agent LLM framework achieving 100% synthesis success on benchmark problems by integrating natural language reasoning with convex optimization for provably safe controller design."
 order: 1
 collection: portfolio
+paperurl: "https://arxiv.org/abs/2511.07894"
 header:
   teaser: images/s2c-teaser.png
 ---
-
-**Links:** [arXiv](https://arxiv.org/abs/2511.07894))
 
 ## Overview
 
