@@ -3,13 +3,16 @@ title: "S2C: LLM Multi-Agent Framework for Certified H∞ Controller Synthesis"
 excerpt: "A multi-agent LLM framework achieving 100% synthesis success on benchmark problems by integrating natural language reasoning with convex optimization for provably safe controller design."
 order: 1
 collection: portfolio
+header:
+  teaser: images/s2c-teaser.png
 ---
 
 ## Overview
 
 **S2C (Specification-to-Certified-Controller)** is a multi-agent framework that bridges the gap between vague human intent and rigorous engineering guarantees. While Large Language Models excel at code generation, they struggle with the strict mathematical requirements of control systems—stability, robustness, and performance guarantees. S2C addresses this by using LLMs not as solvers, but as **architects** that formulate convex optimization problems for formal tools to solve.
 
-[ADD FIGURE: S2C framework architecture showing the iterative loop between SpecInt, Solv, Tester, and Adapt agents]
+![S2C Framework Architecture](/images/s2c-architecture.png)
+*S2C iterative loop showing the interaction between SpecInt, Solv, Tester, and Adapt agents.*
 
 ## Motivation
 
@@ -61,7 +64,7 @@ The NN1 academic benchmark is notoriously difficult to stabilize. Given the user
 - **Iteration 1:** TesterAgent flags violation; AdaptAgent activates guardrail
 - **Iteration 5:** Converges with 15.9s settling time and 64% overshoot reduction
 
-[ADD FIGURE: Evolution of performance metrics over iterations showing overshoot reduction]
+<!-- Image placeholder: Add s2c-nn1-evolution.png showing performance metrics over iterations -->
 
 ## Technical Approach
 
