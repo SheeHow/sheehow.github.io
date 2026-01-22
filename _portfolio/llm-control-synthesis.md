@@ -7,6 +7,8 @@ header:
   teaser: images/s2c-teaser.png
 ---
 
+**Links:** [arXiv]([https://arxiv.org/abs/2511.07894)]) 
+
 ## Overview
 
 **S2C (Specification-to-Certified-Controller)** is a multi-agent framework that bridges the gap between vague human intent and rigorous engineering guarantees. While Large Language Models excel at code generation, they struggle with the strict mathematical requirements of control systems—stability, robustness, and performance guarantees. S2C addresses this by using LLMs not as solvers, but as **architects** that formulate convex optimization problems for formal tools to solve.
