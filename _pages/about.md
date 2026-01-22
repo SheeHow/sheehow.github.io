@@ -30,14 +30,19 @@ Prior to UT Austin, I received my B.S. in Mechanical Engineering from [Pennsylva
 
 ## Selected Research Highlights
 
-**LLM Multi-Agent Systems for Control Synthesis**  
+**[LLM Multi-Agent Systems for Control Synthesis](/portfolio/llm-control-synthesis/)**
 Developed S2C, a multi-agent LLM framework that synthesizes certified H∞ controllers via convex optimization with provable safety guarantees. Achieved **100% synthesis success** on 14 COMPleib benchmarks.
 
-**Deep Reinforcement Learning for Sequential Decision-Making**  
-Designed curriculum-based Soft Actor-Critic with entropy-regularized policy optimization, achieving **80.2% lower tracking error** than LQR baseline with robust disturbance rejection.
+**[LLM-Assisted Control for Roll-to-Roll Manufacturing](/portfolio/llm-r2r-control/)**
+Developed a multi-agent LLM framework for automated controller design in roll-to-roll manufacturing systems, integrating domain knowledge retrieval with automated verification.
 
-**Vision-Language-Action Models**  
-Deployed OpenVLA for robot manipulation tasks, gaining hands-on experience with action tokenization, visuomotor policy inference, and exploring fine-tuning strategies for task-specific adaptation.
+**[Repetitive Learning MPC for Nonlinear Systems](/portfolio/rl-mpc/)**
+Developed a repetitive learning model predictive control method for nonlinear systems with application to roll-to-roll manufacturing. *Accepted to ACC 2026.*
+
+**[Physics-Based Modeling of Adhesion Dynamics](/portfolio/adhesion-dynamics/)**
+Developed physics-based models using contact mechanics for roll-to-roll lamination, validated through real-world experiments achieving **62.6% process time reduction**. *Published in Manufacturing Letters.*
+
+[See all projects →](/portfolio/)
 
 ## Contact
 
