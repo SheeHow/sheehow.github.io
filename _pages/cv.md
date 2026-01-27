@@ -26,7 +26,10 @@ redirect_from:
 
 * **Graduate Research Assistant** (Jan 2024 - Present)
   * University of Texas at Austin - Advanced Power Systems and Controls Lab
-  * Vision-Language-Action Models: Deployed OpenVLA for robot manipulation tasks; exploring fine-tuning strategies for task-specific adaptation
+  * Vision-Language-Action Models: Investigating methods to improve robustness of VLA models for robot manip
+ulation under environmental perturbations. Configured and validated MimicDroid-RoboCasa simulation environment
+on multi-GPU server (8× RTX A6000). Conducting literature review on action chunking policies, visual servoing, and
+active vision for visuomotor control
   * LLM Multi-Agent Systems: Developed S2C framework for certified H∞ controller synthesis with 100% success on COMPleib benchmarks
   * Deep Reinforcement Learning: Designed curriculum-based SAC achieving 80.2% lower tracking error than LQR baseline
   * Distributionally Robust Control: Developed MDR-DeePC combining physics-based models with data-driven prediction
