@@ -58,11 +58,13 @@ active vision for visuomotor control
 
 ## Skills
 
-* **Robot Learning:** Vision-Language-Action Models (OpenVLA), Deep RL (SAC, PPO), Curriculum Learning
-* **LLM & Foundation Models:** Multi-Agent Systems, Prompt Engineering, RAG, Function Calling, vLLM Deployment
-* **Control & Optimization:** MPC, Trajectory Optimization, LQR/LQG, H∞ Synthesis, Convex Optimization (LMI/SDP), CVXPY
-* **Programming:** Python (PyTorch, NumPy, Pandas, Transformers), MATLAB/Simulink, Git, Linux, Docker
-* **Infrastructure:** GPU Cluster Management, Training Pipeline Automation, Shell Scripting
+* **ML/Robotics:** VLA Architectures, Action Chunking (ACT), Deep Reinforcement Learning (SAC, PPO), Curriculum Learning
+* **LLM & Foundation Models:** Multi-Agent LLM Systems, Prompt Engineering, RAG, Function Calling, Qwen2.5-VL
+Fine-tuning, vLLM Deployment
+* **Theory:** Control Systems, MPC, Visual Servoing, LQR/LQG, H∞ Synthesis, Convex Optimization (LMI/SDP)
+* **Simulation:** MuJoCo, RoboCasa, robosuite, MATLAB/Simulink
+* **Programming:** Python (PyTorch, NumPy, CVXPY, Transformers), Linux/Bash
+* **Tools:** Git, GitHub, Docker, conda, GPU Cluster Management, Remote Server Management
 
 ## Publications
 
