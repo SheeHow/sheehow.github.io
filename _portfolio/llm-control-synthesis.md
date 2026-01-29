@@ -86,7 +86,7 @@ S2C solves the **Bounded Real Lemma** with regional pole placement constraints. 
 
 ## Publication
 
-**Li, S.**, Li, J., Xu, J., & Chen, D. (2026). From Natural Language to Certified H-infinity Controllers: Integrating LLM Agents with LMI-Based Synthesis. *Proceedings of Machine Learning Research (L4DC)*.
+**Li, S.**, Li, J., Xu, J., & Chen, D. (2026). From Natural Language to Certified H-infinity Controllers: Integrating LLM Agents with LMI-Based Synthesis. *In Preparation*.
 
 <a href="https://arxiv.org/abs/2511.07894" target="_blank"><img src="https://img.shields.io/badge/arXiv-2511.07894-B31B1B.svg" alt="arXiv"></a>
 
@@ -94,7 +94,7 @@ S2C solves the **Bounded Real Lemma** with regional pole placement constraints. 
 @inproceedings{li2026s2c,
   title={S2C: From Natural Language to Certified H-infinity Controllers},
   author={Li, Shihao and Li, Jiachen and Xu, Jiamin and Chen, Dongmei},
-  booktitle={Proceedings of Machine Learning Research (L4DC)},
+  booktitle={In Preparation},
   year={2026}
 }
 ```
