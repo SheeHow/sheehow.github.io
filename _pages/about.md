@@ -55,15 +55,9 @@ I received my B.S. in Mechanical Engineering from [Pennsylvania State University
 </div>
 
 <div style="margin-bottom: 30px;">
-  <strong><a href="/portfolio/dm-mppi/">Data Attribution for Control Systems</a></strong><br>
-  <img src="/images/data-attribution-teaser.png" alt="Data Attribution for Control" style="width: 100%; max-width: 500px; margin: 10px 0; border-radius: 4px;">
-  <p>A research thrust extending <strong>datamodels</strong> and <strong>influence functions</strong> from machine learning to control theory. Key results include: <strong>5× sample reduction</strong> in MPPI control, efficient data selection for DeePC, and traceable data attribution for LQR through the Riccati equation.</p>
-  <p style="font-size: 0.9em; color: #666;">
-    Related: 
-    <a href="/portfolio/influence-functions-lqr/">Influence Functions for LQR</a> · 
-    <a href="/portfolio/datamodel-deepc/">Datamodel for DeePC</a> · 
-    <a href="/portfolio/dm-mppi/">DM-MPPI</a>
-  </p>
+  <strong><a href="/portfolio/dm-mppi/">DM-MPPI: Datamodel for Efficient MPPI Control</a></strong><br>
+  <img src="/images/dm-mppi-teaser.png" alt="DM-MPPI" style="width: 100%; max-width: 500px; margin: 10px 0; border-radius: 4px;">
+  <p>Extending datamodels from machine learning to Model Predictive Path Integral control. Achieved <strong>5× sample reduction</strong> (2000→400 samples) while improving obstacle avoidance safety through learned influence prediction.</p>
 </div>
 
 [See all projects →](/portfolio/)
