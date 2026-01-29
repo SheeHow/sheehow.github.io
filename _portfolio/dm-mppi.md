@@ -44,23 +44,27 @@ DM-MPPI monitors the **Total Influence of Violation Samples**. If trajectories t
 
 ## Results
 
-Evaluated on a path-tracking task with static obstacles.
+Evaluated on a path tracking task with obstacle avoidance using a kinematic bicycle model.
 
-### Efficiency: 5× Sample Reduction
+### Sample Efficiency: 5× Reduction
+
+![Sample Efficiency Comparison](/images/dm-mppi-fig2-efficiency.png)
+*Sample efficiency comparison: DM-MPPI maintains stable performance at K=100, matching standard MPPI at K=500.*
 
 Using the Influence Predictor to prune samples maintained trajectory quality with significantly fewer resources:
 
-| Configuration | Samples Required | Reduction |
-|---------------|:----------------:|:---------:|
-| Baseline MPPI | 2000 | — |
-| DM-MPPI | **400** | **80%** |
+| Configuration | Samples | Position RMSE | Min. Obstacle Dist. | Iteration Time |
+|---------------|:-------:|:-------------:|:-------------------:|:--------------:|
+| Standard MPPI | 500 | 0.41 m | 1.24 m | 85.4 ms |
+| DM-MPPI (Fixed ρ) | 100 | 0.44 m | 1.31 m | 18.2 ms |
+| DM-MPPI (Adaptive ρ) | **100** | **0.43 m** | **1.42 m** | 18.5 ms |
 
-### Safety: Improved Constraint Satisfaction
+### Trajectory Quality Comparison
 
-![Safety Comparison](/images/dm-mppi-fig4-safety.png)
-*Comparison of constraint violations: DM-MPPI (blue) keeps violations near zero, while baseline (orange) frequently grazes obstacles.*
+![Trajectory Comparison](/images/dm-mppi-fig3-trajectories.png)
+*Despite using only 100 samples, DM-MPPI produces control output comparable to standard MPPI with 500 samples.*
 
-The adaptive safety mechanism drastically reduced collision rates compared to fixed-parameter MPPI.
+The adaptive variant achieves the largest minimum obstacle distance by dynamically adjusting ρ based on the violation influence ratio.
 
 ## Technical Approach
 
