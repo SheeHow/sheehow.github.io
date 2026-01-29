@@ -54,28 +54,32 @@ If any check fails, the error log is fed back to the generating agent for self-c
 
 ## Results
 
-Validated on 8 diverse benchmarks including thermal PDEs and mechanical assemblies:
+Validated on 8 diverse benchmarks ranging from simple systems (Building, n=48) to extreme complexity (Mobile Manipulator, n=156):
 
-![Benchmark Comparison](/images/aurora-fig5-benchmark.png)
-*Success rate comparison across LLM backbones: AURORA achieves 100% success through its multi-agent architecture and QA loop.*
+### Overall LLM Performance
 
-| Metric | AURORA (Ours) | GPT-4 Base | Claude-3 Opus |
-|--------|:-------------:|:----------:|:-------------:|
-| **Success Rate** | **100%** | 62.5% | 75.0% |
-| **Adaptation** | Autonomous | Manual | Manual |
-| **Code Reliability** | High (QA Loop) | Medium | High |
+| LLM | Success Rate | Avg. Improvement | Full Auto | Avg. Iterations |
+|-----|:------------:|:----------------:|:---------:|:---------------:|
+| **GPT-5** | **7/8** | **+8.9%** | **5/8** | **7** |
+| Qwen-2.5-72B | 6/8 | +7.1% | 4/8 | 7 |
+| DeepSeek-V3 | 6/8 | +3.2% | 3/8 | 10 |
+| GPT-5 mini | 5/8 | -7.2% | 2/8 | 13 |
+| Llama-4 Maverick | 4/8 | -18.6% | 1/8 | 18 |
 
-### Adaptation in Action
+### System Complexity Analysis
 
-![Adaptation Timeline](/images/aurora-fig3-adaptation.png)
-*Performance timeline showing degradation detection, trigger event, and automatic recovery after AURORA updates the ROM.*
+The framework scales across system complexity, with GPT-5 achieving success even on the most challenging Mobile Manipulator (n=156 states) where all other LLMs failed:
 
-The framework demonstrated particular strength in **Thermal PDE Control**, where it successfully updated the ROM to account for changing boundary conditions that caused standard controllers to destabilize.
+| Complexity | System | States | LLM Failures | Best LLM |
+|------------|--------|:------:|:------------:|----------|
+| Simple | Building | 48 | 0 | Qwen (+11.7%) |
+| Simple | 7-DOF Manipulator | 42 | 0 | GPT-5 (+7.0%) |
+| Moderate | ISS 1R | 270 | 2 | GPT-5 (+9.0%) |
+| Moderate | Quadrotor | 288 | 2 | GPT-5 (+6.0%) |
+| Complex | ISS 12A | 1412 | 3 | GPT-5 (+11.0%) |
+| Extreme | Mobile Manipulator | 156 | 4 | GPT-5 (+12.0%) |
 
-## ROM Quality Visualization
-
-![ROM Comparison](/images/aurora-fig4-rom.png)
-*Comparison of Full Order Model vs. Reduced Order Model fields, demonstrating the quality of model compression while maintaining physical accuracy.*
+The framework demonstrated particular strength in high-dimensional systems where traditional ROM construction would require significant manual effort.
 
 ## Technical Approach
 
