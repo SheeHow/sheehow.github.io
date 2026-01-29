@@ -60,6 +60,12 @@ I received my B.S. in Mechanical Engineering from [Pennsylvania State University
   <p>Extending datamodels from machine learning to Model Predictive Path Integral control. Achieved <strong>5× sample reduction</strong> (2000→400 samples) while improving obstacle avoidance safety through learned influence prediction.</p>
 </div>
 
+<div style="margin-bottom: 30px;">
+  <strong><a href="/portfolio/aurora-rom/">AURORA: Autonomous ROM Adaptation</a></strong><br>
+  <img src="/images/aurora-teaser.png" alt="AURORA Framework" style="width: 100%; max-width: 500px; margin: 10px 0; border-radius: 4px;">
+  <p>An autonomous framework that maintains control of complex high-dimensional systems. AURORA continuously monitors performance and automatically rebuilds <strong>Reduced Order Models (ROMs)</strong> and retunes controllers when system dynamics drift, achieving a <strong>100% success rate</strong> on dynamic benchmarks.</p>
+</div>
+
 [See all projects →](/portfolio/)
 
 ## Contact
