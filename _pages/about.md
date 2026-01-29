@@ -54,6 +54,18 @@ I received my B.S. in Mechanical Engineering from [Pennsylvania State University
   <p>A first-principles process model integrating <strong>Hertzian contact theory</strong> and <strong>transient heat transfer</strong> to predict adhesion quality. Identified a dual-heating strategy that reduces process time by <strong>62.6%</strong>, enabling significant throughput increases for flexible electronics manufacturing.</p>
 </div>
 
+<div style="margin-bottom: 30px;">
+  <strong><a href="/portfolio/dm-mppi/">Data Attribution for Control Systems</a></strong><br>
+  <img src="/images/data-attribution-teaser.png" alt="Data Attribution for Control" style="width: 100%; max-width: 500px; margin: 10px 0; border-radius: 4px;">
+  <p>A research thrust extending <strong>datamodels</strong> and <strong>influence functions</strong> from machine learning to control theory. Key results include: <strong>5× sample reduction</strong> in MPPI control, efficient data selection for DeePC, and traceable data attribution for LQR through the Riccati equation.</p>
+  <p style="font-size: 0.9em; color: #666;">
+    Related: 
+    <a href="/portfolio/influence-functions-lqr/">Influence Functions for LQR</a> · 
+    <a href="/portfolio/datamodel-deepc/">Datamodel for DeePC</a> · 
+    <a href="/portfolio/dm-mppi/">DM-MPPI</a>
+  </p>
+</div>
+
 [See all projects →](/portfolio/)
 
 ## Contact
