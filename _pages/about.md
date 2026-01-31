@@ -66,6 +66,20 @@ I received my B.S. in Mechanical Engineering from [Pennsylvania State University
 
 [See all projects →](/portfolio/)
 
+## Coursework
+
+**Control Systems:** Linear Systems Analysis, Multivariable Control Systems, Nonlinear Control Systems, Automatic Control System Design, Optimal Control Theory, Model Predictive Control, Modeling of Physical Systems
+
+**Optimization:** Linear Programming, Nonlinear Programming, Convex Optimization
+
+**Machine Learning & AI:** Deep Reinforcement Learning, Machine Learning
+
+**Robotics & Estimation:** State Estimation and Localization
+
+**Mathematics:** Real Analysis, Functional Analysis, Introduction to Topology, Linear Algebra, Stochastic Processes
+
+**Dynamics:** Dynamics of Mechanical Systems
+
 ## Contact
 
 - **Email:** [shihaoli01301@utexas.edu](mailto:shihaoli01301@utexas.edu)
