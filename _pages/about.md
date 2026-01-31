@@ -68,17 +68,27 @@ I received my B.S. in Mechanical Engineering from [Pennsylvania State University
 
 ## Coursework
 
-**Control Systems:** Linear Systems Analysis, Multivariable Control Systems, Nonlinear Control Systems, Automatic Control System Design, Optimal Control Theory, Model Predictive Control, Modeling of Physical Systems
-
-**Optimization:** Linear Programming, Nonlinear Programming, Convex Optimization
-
-**Machine Learning & AI:** Deep Reinforcement Learning, Machine Learning
-
-**Robotics & Estimation:** State Estimation and Localization
-
-**Mathematics:** Real Analysis, Functional Analysis, Introduction to Topology, Linear Algebra, Stochastic Processes
-
-**Dynamics:** Dynamics of Mechanical Systems
+| Category | Course |
+|----------|--------|
+| Control Systems | Linear Systems Analysis |
+| Control Systems | Multivariable Control Systems |
+| Control Systems | Nonlinear Control Systems |
+| Control Systems | Automatic Control System Design |
+| Control Systems | Optimal Control Theory |
+| Control Systems | Model Predictive Control |
+| Control Systems | Modeling of Physical Systems |
+| Optimization | Linear Programming |
+| Optimization | Nonlinear Programming |
+| Optimization | Convex Optimization |
+| Machine Learning & AI | Deep Reinforcement Learning |
+| Machine Learning & AI | Machine Learning |
+| Robotics & Estimation | State Estimation and Localization |
+| Mathematics | Real Analysis |
+| Mathematics | Functional Analysis |
+| Mathematics | Introduction to Topology |
+| Mathematics | Linear Algebra |
+| Mathematics | Stochastic Processes |
+| Dynamics | Dynamics of Mechanical Systems |
 
 ## Contact
 
