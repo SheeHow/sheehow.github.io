@@ -68,27 +68,53 @@ I received my B.S. in Mechanical Engineering from [Pennsylvania State University
 
 ## Coursework
 
-| Category | Course |
-|----------|--------|
-| Control Systems | Linear Systems Analysis |
-| Control Systems | Multivariable Control Systems |
-| Control Systems | Nonlinear Control Systems |
-| Control Systems | Automatic Control System Design |
-| Control Systems | Optimal Control Theory |
-| Control Systems | Model Predictive Control |
-| Control Systems | Modeling of Physical Systems |
-| Optimization | Linear Programming |
-| Optimization | Nonlinear Programming |
-| Optimization | Convex Optimization |
-| Machine Learning & AI | Deep Reinforcement Learning |
-| Machine Learning & AI | Machine Learning |
-| Robotics & Estimation | State Estimation and Localization |
-| Mathematics | Real Analysis |
-| Mathematics | Functional Analysis |
-| Mathematics | Introduction to Topology |
-| Mathematics | Linear Algebra |
-| Mathematics | Stochastic Processes |
-| Dynamics | Dynamics of Mechanical Systems |
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Course</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="7"><strong>Control Systems</strong></td>
+      <td>Linear Systems Analysis</td>
+    </tr>
+    <tr><td>Multivariable Control Systems</td></tr>
+    <tr><td>Nonlinear Control Systems</td></tr>
+    <tr><td>Automatic Control System Design</td></tr>
+    <tr><td>Optimal Control Theory</td></tr>
+    <tr><td>Model Predictive Control</td></tr>
+    <tr><td>Modeling of Physical Systems</td></tr>
+    <tr>
+      <td rowspan="3"><strong>Optimization</strong></td>
+      <td>Linear Programming</td>
+    </tr>
+    <tr><td>Nonlinear Programming</td></tr>
+    <tr><td>Convex Optimization</td></tr>
+    <tr>
+      <td rowspan="2"><strong>Machine Learning & AI</strong></td>
+      <td>Deep Reinforcement Learning</td>
+    </tr>
+    <tr><td>Machine Learning</td></tr>
+    <tr>
+      <td><strong>Robotics & Estimation</strong></td>
+      <td>State Estimation and Localization</td>
+    </tr>
+    <tr>
+      <td rowspan="5"><strong>Mathematics</strong></td>
+      <td>Real Analysis</td>
+    </tr>
+    <tr><td>Functional Analysis</td></tr>
+    <tr><td>Introduction to Topology</td></tr>
+    <tr><td>Linear Algebra</td></tr>
+    <tr><td>Stochastic Processes</td></tr>
+    <tr>
+      <td><strong>Dynamics</strong></td>
+      <td>Dynamics of Mechanical Systems</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Contact
 
