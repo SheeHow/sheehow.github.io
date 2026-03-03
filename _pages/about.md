@@ -21,6 +21,7 @@ I received my B.S. in Mechanical Engineering from [Pennsylvania State University
 - **Control & Optimization:** Model predictive control, distributionally robust optimization, system identification
 
 ## News
+- **[Feb 2025]** Two papers accepted to [NAMRC 54](https://www.sme.org/namrc)! See you at Penn State this summer — excited to return to my alma mater!
 - **[Jan 2026]** Paper on repetitive learning MPC for roll-to-roll manufacturing accepted to [ACC 2026](https://acc2026.a2c2.org/). See you in New Orleans this summer!
 - **[2025]** Paper on MDR-DeePC accepted to MECC 2025.
 - **[2025]** Paper on Robust Optimal Task Planning to Maximize Battery Life accepted to MECC 2025.
