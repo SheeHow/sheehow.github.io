@@ -53,6 +53,7 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>News</h2>
                 <ul style="list-style:none;padding-left:0;margin-top:8px;">
+                  <li class="news-item"><span class="news-date">[Apr 2026]</span> Two new preprints on gradient-based curriculum learning and behavioral score diffusion are on arXiv!</li>
                   <li class="news-item"><span class="news-date">[Apr 2026]</span> Paper on LLM-assisted multi-agent control accepted and published in <em>Journal of Manufacturing Systems</em>!</li>
                   <li class="news-item"><span class="news-date">[Jan 2026]</span> Paper on repetitive learning MPC accepted to <a href="https://acc2026.a2c2.org/">ACC 2026</a>. See you in New Orleans!</li>
                   <li class="news-item"><span class="news-date">[Feb 2025]</span> Two papers accepted to <a href="https://www.sme.org/namrc">NAMRC 54</a>!</li>
@@ -80,7 +81,70 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
-<!-- Paper 1: S2C (first author, highlighted) -->
+<!-- Paper: Gradient Curriculum (first author, highlighted) -->
+<tr bgcolor="#ffffd0">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <img src='images/gradient-curriculum-teaser.jpg' width="160" alt="Gradient Curriculum Planning">
+    </div>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/abs/2604.00388">
+      <span class="papertitle">Gradient-Based Data Valuation Improves Curriculum Learning for Game-Theoretic Motion Planning</span>
+    </a>
+    <br>
+    <strong>Shihao Li</strong>,
+    Jiachen Li,
+    <a href="https://www.me.utexas.edu/people/faculty-directory/chen">Dongmei Chen</a>
+    <br>
+    <em>arXiv preprint</em>, 2026
+    <br>
+    <a href="https://sheehow.github.io/gradient-curriculum-planning/">page</a>
+    /
+    <a href="https://arxiv.org/abs/2604.00388">arXiv</a>
+    /
+    <a href="https://github.com/SheeHow/gradient-curriculum-planning/tree/main/code">code</a>
+    <p></p>
+    <p>
+      Gradient-based data valuation (TracIn) outperforms metadata-based approaches for training game-theoretic motion planners. TracIn-weighted curriculum on GameFormer achieves mean planning ADE of 1.704 m vs. 1.822 m for interaction-difficulty curriculum (p=0.021) on nuPlan.
+    </p>
+  </td>
+</tr>
+
+
+<!-- Paper: BSD (first author, highlighted) -->
+<tr bgcolor="#ffffd0">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <img src='images/bsd-teaser.jpg' width="160" alt="Behavioral Score Diffusion">
+    </div>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://arxiv.org/abs/2604.00391">
+      <span class="papertitle">Behavioral Score Diffusion: Model-Free Trajectory Planning via Kernel-Based Score Estimation from Data</span>
+    </a>
+    <br>
+    <strong>Shihao Li</strong>,
+    Jiachen Li,
+    Jiamin Xu,
+    <a href="https://www.me.utexas.edu/people/faculty-directory/chen">Dongmei Chen</a>
+    <br>
+    <em>arXiv preprint</em>, 2026
+    <br>
+    <a href="https://sheehow.github.io/behavioral-score-diffusion/">page</a>
+    /
+    <a href="https://arxiv.org/abs/2604.00391">arXiv</a>
+    /
+    <a href="https://github.com/SheeHow/behavioral-score-diffusion/tree/main/code">code</a>
+    <p></p>
+    <p>
+      A model-free trajectory planner that computes the diffusion score function directly from data via kernel-weighted estimation. Using triple-kernel weighting with a coarse-to-fine strategy, BSD achieves ~98.5% performance parity with model-based baselines using only 1,000 trajectories.
+    </p>
+  </td>
+</tr>
+
+
+<!-- Paper: S2C (first author, highlighted) -->
 <tr bgcolor="#ffffd0">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -179,7 +243,7 @@
     <br>
     <em>Manufacturing Letters</em>, vol. 44, pp. 552&ndash;558, 2025
     <br>
-    <a href="https://www.sciencedirect.com/science/article/pii/S2213846325000975">paper</a>
+    <a href="https://www.sciencedirect.com/science/article/pii/S2213846325000975">page</a>
     <p></p>
     <p>
       A first-principles process model integrating Hertzian contact theory and transient heat transfer to predict adhesion quality. Identified a dual-heating strategy that reduces process time by 62.6%.
